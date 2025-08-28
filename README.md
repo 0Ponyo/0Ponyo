@@ -42,7 +42,7 @@ I'm an indie full-stack developer and content creator building my version of the
 #
 <details>
  <summary><h3>🛠️ 0Ponyo's Current</h3></summary>
-   I started my coding journey .
+   I started my coding journey.
 ### 📺 Latest YouTube Videos
 
 <!-- BEGIN YOUTUBE-CARDS -->
