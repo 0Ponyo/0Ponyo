@@ -1,29 +1,55 @@
-name: GitHub Readme YouTube Cards
+name: Update YouTube Videos
+
 on:
   schedule:
-    # Runs every hour, on the hour
+    # Check for new videos every hour
     - cron: "0 * * * *"
+
+  # Lets you update it manually from GitHub Actions
   workflow_dispatch:
+
 permissions:
   contents: write
 
 jobs:
-  deploy:
+  youtube:
+    name: Update YouTube Cards
     runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repo
-        uses: actions/checkout@v3
 
-      - name: Generate YouTube cards
+    steps:
+      - name: Find YouTube channel ID
+        id: youtube
+        shell: bash
+        run: |
+          set -e
+
+          CHANNEL_URL="https://www.youtube.com/@0Ponyo."
+
+          echo "Finding channel ID for ${CHANNEL_URL}..."
+
+          HTML=$(curl \
+            --fail \
+            --silent \
+            --show-error \
+            --location \
+            --retry 3 \
+            "$CHANNEL_URL")
+
+          CHANNEL_ID=$(echo "$HTML" | grep -oE '"channelId":"UC[a-zA-Z0-9_-]+"' | head -1 | cut -d'"' -f4)
+
+          if [ -z "$CHANNEL_ID" ]; then
+            echo "Could not find the YouTube channel ID."
+            exit 1
+          fi
+
+          echo "Found channel ID: $CHANNEL_ID"
+          echo "channel_id=$CHANNEL_ID" >> "$GITHUB_OUTPUT"
+
+      - name: Update README with YouTube videos
         uses: DenverCoder1/github-readme-youtube-cards@main
         with:
-          channel_id: UCLfy2P0XPuzeEKi0J4dWKxw
-          readme_path: README.md   # path to update
-          comment_tag_name: YOUTUBE-CARDS
+          channel_id: ${{ steps.youtube.outputs.channel_id }}
           max_videos: 6
-
-      - name: Commit and push if changed
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "Update YouTube cards"
-             
+          readme_path: README.md
+          comment_tag_name: YOUTUBE-CARDS
+          commit_message: "docs: update latest YouTube videos"
