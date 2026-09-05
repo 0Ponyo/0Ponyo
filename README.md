@@ -27,8 +27,24 @@
 ## 📺 Latest YouTube Videos
 
 <!-- BEGIN YOUTUBE-CARDS -->
+<table>
+<tr>
 
-<p align="center"><i>No videos yet — check back soon!</i></p>
+<td width="50%" valign="top">
+  <a href="https://www.youtube.com/watch?v=oJznNwSw9qs">
+    <img src="https://i.ytimg.com/vi/oJznNwSw9qs/hqdefault.jpg" width="100%" alt="TEST">
+  </a>
+  <br><br>
+  <strong>TEST</strong>
+  <br>
+  👁️ 1 views · 👍 1 likes
+  <br>
+  📅 Sep 3, 2026
+</td>
+
+<td width="50%"></td>
+</tr>
+</table>
 <!-- END YOUTUBE-CARDS -->
 
 
