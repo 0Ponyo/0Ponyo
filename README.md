@@ -27,8 +27,10 @@
 ## 📺 Latest YouTube Videos
 
 <!-- BEGIN YOUTUBE-CARDS -->
-[![TEST](https://ytcards.demolab.com/?id=oJznNwSw9qs&title=TEST&lang=en&timestamp=1788464455&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=250&border_radius=5 "TEST")](https://www.youtube.com/watch?v=oJznNwSw9qs)
+
+<p align="center"><i>No videos yet — check back soon!</i></p>
 <!-- END YOUTUBE-CARDS -->
+
 
 ---
 
