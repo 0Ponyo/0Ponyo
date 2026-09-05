@@ -2,53 +2,21 @@ name: Update YouTube Videos
 
 on:
   schedule:
-    # Check for new videos every hour
     - cron: "0 * * * *"
-
-  # Lets you update it manually from GitHub Actions
   workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  youtube:
-    name: Update YouTube Cards
+  update-youtube:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Find YouTube channel ID
-        id: youtube
-        shell: bash
-        run: |
-          set -e
-
-          CHANNEL_URL="https://www.youtube.com/@0Ponyo."
-
-          echo "Finding channel ID for ${CHANNEL_URL}..."
-
-          HTML=$(curl \
-            --fail \
-            --silent \
-            --show-error \
-            --location \
-            --retry 3 \
-            "$CHANNEL_URL")
-
-          CHANNEL_ID=$(echo "$HTML" | grep -oE '"channelId":"UC[a-zA-Z0-9_-]+"' | head -1 | cut -d'"' -f4)
-
-          if [ -z "$CHANNEL_ID" ]; then
-            echo "Could not find the YouTube channel ID."
-            exit 1
-          fi
-
-          echo "Found channel ID: $CHANNEL_ID"
-          echo "channel_id=$CHANNEL_ID" >> "$GITHUB_OUTPUT"
-
       - name: Update README with YouTube videos
         uses: DenverCoder1/github-readme-youtube-cards@main
         with:
-          channel_id: ${{ steps.youtube.outputs.channel_id }}
+          channel_id: UCLfy2P0XPuzeEKi0J4dWKxw
           max_videos: 6
           readme_path: README.md
           comment_tag_name: YOUTUBE-CARDS
