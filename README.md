@@ -37,9 +37,9 @@
   <br><br>
   <strong>TEST</strong>
   <br>
-  👁️ 1 views · 👍 1 likes
+   1 views ·  1 likes
   <br>
-  📅 Sep 3, 2026
+   Sep 3, 2026
 </td>
 
 <td width="50%"></td>
