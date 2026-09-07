@@ -1,14 +1,14 @@
-# 👋 Hey, I'm Ponyo!
+# 0Ponyo here
 
-💻 Developer interested in **software development, game development, and web technologies**.
+ Developer interested in **software development, game development, and web technologies**.
 
-🌱 Currently learning and improving my skills across **C#, C++, Python, JavaScript, TypeScript, and the .NET ecosystem**.
+Currently learning and improving my skills across **C#, C++, Python, JavaScript, TypeScript, and the .NET ecosystem**.
 
-🎮 I enjoy building projects, experimenting with new technologies, and exploring the creative side of programming.
+ I enjoy building projects, experimenting with new technologies, and exploring the creative side of programming.
 
 ---
 
-## 🌐 Connect With Me
+## Connect With Me
 
 <p align="center">
   <a href="https://reddit.com/user/0Ponyo">
@@ -24,7 +24,7 @@
 
 ---
 
-## 📺 Latest YouTube Videos
+## Latest YouTube Videos
 
 <!-- BEGIN YOUTUBE-CARDS -->
 <table>
@@ -37,7 +37,7 @@
   <br><br>
   <strong>TEST</strong>
   <br>
-  👁️ 2 views · 👍 2 likes
+  2 views · 2 likes
   <br>
   📅 Sep 3, 2026
 </td>
@@ -50,7 +50,7 @@
 
 ---
 
-## 💻 Languages
+## Languages
 
 <p align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/csharp/csharp-original.svg" width="60" height="60" alt="C#" />
@@ -64,7 +64,7 @@
 
 ---
 
-## 🌐 Web Development
+## Web Development
 
 <p align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/html5/html5-original.svg" width="60" height="60" alt="HTML5" />
@@ -76,7 +76,7 @@
 
 ---
 
-## 🎮 Game Development
+## Game Development
 
 <p align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/godot/godot-original.svg" width="60" height="60" alt="Godot" />
@@ -85,7 +85,7 @@
 
 ---
 
-## 🛠️ Tools & Other
+## Tools & Other
 
 <p align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/git/git-original.svg" width="60" height="60" alt="Git" />
@@ -96,7 +96,7 @@
 
 ---
 
-## 📊 GitHub Stats
+## GitHub Stats
 
 <p align="center">
   <img src="https://github-readme-stats.shion.dev/api?username=0Ponyo&theme=default_repocard&hide_border=false&include_all_commits=true&count_private=false" alt="GitHub Stats" />
@@ -112,7 +112,7 @@
 
 ---
 
-## 💭 Random Developer Quote
+## Random Dev Quote
 
 <p align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=light" alt="Random Developer Quote" />
