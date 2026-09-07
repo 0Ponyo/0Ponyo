@@ -37,7 +37,7 @@ Currently learning and improving my skills across **C#, C++, Python, JavaScript,
   <br><br>
   <strong>TEST</strong>
   <br>
-  2 views · 2 likes
+  👁️ 2 views · 👍 2 likes
   <br>
   📅 Sep 3, 2026
 </td>
