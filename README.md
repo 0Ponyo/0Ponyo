@@ -1,10 +1,10 @@
 # 0Ponyo here
 
- Developer interested in **software development, game development, and web technologies**.
+ Developer interested in **---**.
 
 Currently learning and improving my skills across **C#, C++, Python, JavaScript, TypeScript, and the .NET ecosystem**.
 
- I enjoy building projects, experimenting with new technologies, and exploring the creative side of programming.
+"----".
 
 ---
 
