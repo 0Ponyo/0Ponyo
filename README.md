@@ -4,6 +4,7 @@
 
 Currently learning and improving my skills across **C#, C++, Python, JavaScript, TypeScript, and the .NET ecosystem**.
 
+**Work-in prog**
 "----".
 
 ---
